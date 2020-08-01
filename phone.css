@@ -1,0 +1,64 @@
+.card-container {
+    position: relative;
+    width: 20vw;
+    border-radius: 10px;
+    /* margin: 30px auto; */
+    box-shadow: 0px 5px 15px #ebebeb;
+    background-clip: border-box;
+    float: left;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.test {
+    position: absolute;
+    top: 21%;
+    left: 17%;
+    color: white;
+    width: 50%;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Homemade Apple', cursive;
+    z-index: 2;
+    font-size: 4em;
+}
+
+
+
+.test p {
+   
+    font-size: 6vw;
+    width: 70vw;
+    text-align: center;
+}
+
+.sk-header-nav {
+    -webkit-box-shadow: 0 2px 8px #213C57;
+    box-shadow: 0 2px 8px #213C57;
+    opacity: 0.9;
+    width: 100vw;
+    background-color: #fff;}
+
+
+.btn{
+        font-family: 'Architects Daughter', cursive;
+        margin-top: 1%;
+        margin-left: 9vw;
+    
+}
+
+.book img {
+    width: 130vw;
+    width: 50vw;
+    margin-top: -10vh;
+    margin-left: -2vw;
+}
+
+.btn-block {
+    display: block;
+    width: 80%;
+}
+
+body{
+    width:90vw;
+    margin:0 auto;
+}

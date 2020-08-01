@@ -1,0 +1,2 @@
+.sk-header 
+{   ...   // 以下 Scroll Spyと連動させる時に追加する   .nav-link {     position: relative;     &:after {       content: '';       position: absolute;       width: 100%;       left: 0;       bottom: 0;       height: 5px;       background-color: $primary;       transform: scale(0,1);       transition: transform .2s;     }   }   .nav-link.active {     &:after {       transform: scale(1,1);     }   } } 

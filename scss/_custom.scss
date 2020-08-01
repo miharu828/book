@@ -1,0 +1,7 @@
+// Bootstrap Override Style
+$primary: map-get($colors, primary);
+$input-placeholder-color: lighten(#000, 65%);
+
+
+// Bootstrap Default
+@import 'bootstrap/bootstrap';

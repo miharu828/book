@@ -1,0 +1,16 @@
+// ミックスインファイル
+
+// メディアクエリ
+@mixin mq($sizes...) {
+  @if length($sizes) == 1 {
+    @media (max-width: nth($sizes, 1)) {
+      @content;
+    }
+  }
+
+  @if length($sizes) == 2 {
+    @media (min-width: nth($sizes, 2)) and (max-width: nth($sizes, 1)) {
+      @content;
+    }
+  }
+}

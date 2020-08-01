@@ -1,0 +1,48 @@
+// ヘッダースタイル
+.sk-header {
+  &-nav {
+    box-shadow: 0 2px 8px map-get($colors, primary);
+    opacity: 0.9;
+    background-color: #fff;
+
+    @include media-breakpoint-up(md) {
+      height: 80px;
+      
+    }
+  }
+ 
+  &-logo {
+    width: 50px;
+    height: auto;
+  }
+  .nav-item {
+    font-size: 1.4rem;
+    padding: 0 .7rem;
+  }
+
+  .navbar-brand {
+    text-transform: uppercase;
+  }
+
+  // 以下 Scroll Spyと連動させる時に追加する
+  .nav-link {
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      height: 5px;
+      background-color: $primary;
+      transform: scale(0,1);
+      transition: transform .2s;
+    }
+  }
+  .nav-link.active {
+    &:after {
+      transform: scale(1,1);
+    }
+  }
+}
+
