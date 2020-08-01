@@ -1,0 +1,112 @@
+.showcase{
+    position:relative;
+    z-index: 0;
+    width:100vw;
+}
+
+.test{
+    position: absolute;
+    top:31%;
+    left:13%;
+    color:white;
+    width:50%;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Homemade Apple', cursive;
+z-index: 2;
+font-size:4em;
+}
+
+.test p{
+font-family: 'Architects Daughter', cursive;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-size:30px;
+padding-top:2%;
+color:white;
+}
+
+.book{
+    width:50%;
+    position: absolute;
+    left:60%;
+    top:10%;
+    margin-top:4%;
+    margin-left:3%;
+}
+
+.book img{
+    width:45%;
+    top:10%;    
+}
+
+@media screen and (max-width:480px){
+    .book{
+        width: 40%;
+        position: absolute;
+        left:23%;
+        top:76%;
+    }
+
+    .book img{
+        width:90%;
+     }
+
+     .test p{
+         font-size:15px;
+     }
+
+     body{
+         width:40%;
+     }
+
+
+    }
+
+
+
+.btn{
+font-family: 'Architects Daughter', cursive;
+
+margin-top:1%
+
+}
+
+.card-body{
+    background-image:linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+
+h2{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+}
+
+.btn-1{
+    position: absolute;
+    left:32%;
+    top:95%;
+    width:30%
+}
+
+ body{
+     width:100vw;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: top;
+    table-layout: fixed;}
+    
+    .sk-header{
+        width:100vw;
+    }
+
+    body{
+        width:100vw;
+    }
+
+    .sk-header-nav {
+        -webkit-box-shadow: 0 2px 8px #213C57;
+        box-shadow: 0 2px 8px #213C57;
+        opacity: 0.9;
+        width: 100vw;
+        background-color: #fff;}
