@@ -2,6 +2,9 @@
     position:relative;
     z-index: 0;
     width:100vw;
+  background: url(https://miharu828.github.io/book/img/space_mountain.jpg) center bottom;
+  background-size: cover;
+  min-height: 620px;
 }
 
 .test{
