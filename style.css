@@ -1,28 +1,24 @@
 
-.showcase {
-    position: relative;
+
+
+.showcase{
+    position:relative;
     z-index: 0;
-    width: 100vw;
-    background: url(https://miharu828.github.io/book/img/space_mountain.jpg) center bottom;
-    background-size: cover;
-    min-height: 620px;
+    width:100vw;
 }
 
-
 .test{
-    position: absolute;
-    top:31%;
-    left:13%;
-    color:white;
-    width:50%;
-    font-family: 'Architects Daughter', cursive;
+position: absolute;
+top:31%;
+left:13%;
+color:white;
+width:50%;
 font-family: 'Homemade Apple', cursive;
 z-index: 2;
 font-size:4em;
 }
 
 .test p{
-font-family: 'Architects Daughter', cursive;
 font-family: 'M PLUS Rounded 1c', sans-serif;
 font-size:30px;
 padding-top:2%;
@@ -38,22 +34,34 @@ color:white;
     margin-left:3%;
 }
 
+.book img{
+    width:45%;
+    top:10%;    
+}
 
-.book img {
-    width: 100vw;
-    width: 23vw;
-}
-.test {
-    position: absolute;
-    top: 31%;
-    left: 14%;
-    color: white;
-    width: 50%;
-    font-family: 'Architects Daughter', cursive;
-    font-family: 'Homemade Apple', cursive;
-    z-index: 2;
-    font-size: 4em;
-}
+@media screen and (max-width:480px){
+    .book{
+        width: 40%;
+        position: absolute;
+        left:23%;
+        top:76%;
+    }
+
+    .book img{
+        width:90%;
+     }
+
+     .test p{
+         font-size:15px;
+     }
+
+     body{
+     width:100vw;
+     }
+
+
+    }
+
 
 
 .btn{
@@ -80,13 +88,22 @@ h2{
     width:30%
 }
 
-
+ body{
+     width:100vw;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: top;
+    table-layout: fixed;}
     
     .sk-header{
         width:100vw;
     }
 
-   
+    body{
+        width:100vw;
+    }
 
     .sk-header-nav {
         -webkit-box-shadow: 0 2px 8px #213C57;
@@ -94,8 +111,39 @@ h2{
         opacity: 0.9;
         width: 100vw;
         background-color: #fff;}
-
- body{
-        width:100vw;
-	   margin:0;
-    }
+        @media screen and (max-width: 480px){
+            .book img {
+                width: 100%;
+                margin-left: 2vw;
+                margin-top: -4vh;
+            
+            .btn {
+                margin-left: 0vw;
+                font-family: 'Architects Daughter', cursive;
+                margin-top: -16%;
+            }
+            }
+            
+            
+            
+            @media screen and (max-width: 480px){
+            .test p {
+                font-size: 15px;
+                width: 72vw;
+                text-align: center;
+                margin-left: -2vw;
+                margin-top: 4vh;
+            }
+            
+            .test {
+                position: absolute;
+                top: 23%;
+                left: 19%;
+                color: white;
+                width: 50%;
+                font-family: 'Homemade Apple', cursive;
+                z-index: 2;
+                font-size: 4em;
+            }
+            
+            }
