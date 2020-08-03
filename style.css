@@ -169,8 +169,37 @@ h2{
     margin-left: 0vw;
     font-family: 'Architects Daughter', cursive;
     margin-top: -16%;
+
     }: ;
 
+	
+	@media screen and (max-width: 480px){
+.book img {
+    width: 100%;
+    margin-left: 2vw;
+    margin-top: -49vh;
+    margin-left: 0vw;
+    font-family: 'Architects Daughter', cursive;
+    margin-top: -210%;
+    margin-left: 3%;
+}
+
+.test p {
+    font-size: 15px;
+    width: 72vw;
+    text-align: center;
+    margin-left: -2vw;
+    margin-top: -3vh;
+}
+
+.btn {
+    left: 5vw;
+    position: relative;
+    top: -4vh;
+    font-family: 'Architects Daughter', cursive;
+   
+}
+}
 
 
 
