@@ -147,3 +147,46 @@ h2{
             }
             
             }
+		
+		
+		
+@media screen and (max-width: 480px){
+.test {
+    position: absolute;
+    top: 17%;
+    left: 19%;
+    color: white;
+    width: 50%;
+    font-family: 'Homemade Apple', cursive;
+    z-index: 2;
+    font-size: 4em;
+}
+
+.book img {
+    width: 100%;
+    margin-left: 2vw;
+    margin-top: -40vh;
+    margin-left: 0vw;
+    font-family: 'Architects Daughter', cursive;
+    margin-top: -16%;
+    }: ;
+
+
+
+
+.test p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    position: relative;
+    top: -4vh;
+    color: white;
+    margin-top: -20px;
+}
+
+.btn {
+    left: 5vw;
+    position: relative;
+    top: -6vh;
+    font-family: 'Architects Daughter', cursive;
+    margin-top: %;
+}
+}
