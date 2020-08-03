@@ -1,8 +1,9 @@
 
-
-
-.showcase{
-    position:relative;
+.showcase {
+  position: relative;
+  background: url(https://miharu828/book/img/space_mountain.jpg) center bottom;
+  background-size: cover;
+  min-height: 620px;
     z-index: 0;
     width:100vw;
 }
